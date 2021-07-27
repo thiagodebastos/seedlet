@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "alwaysStrict": true,
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -15,11 +16,12 @@
     "jsx": "preserve",
     "baseUrl": "src",
     "paths": {
-      "@/types/*": ["types/*"],
-      "@/components/*": ["components/*"],
+      "@/modules/*": ["modules/*"],
+      "@/jobs/*": ["modules/jobs/*"],
+      "@/users/*": ["modules/users/*"],
+      "@/shared/*": ["shared/*"],
       "@/pages/*": ["pages/*"],
-      "@/utils/*": ["utils/*"],
-      "@/lib/*": ["lib/*"]
+      "@/utils/*": ["shared/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

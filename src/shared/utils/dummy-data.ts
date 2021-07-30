@@ -1,0 +1,56 @@
+import { Job } from "@/components/job-card/types";
+
+export const MOCK_DATA_JOBS: Job[] = [
+  {
+    id: 1,
+    user_id: '',
+    company_name: 'Mozilla',
+    title: 'Snr Software Engineer',
+    description:
+      'Use your backend software development skills for good, and have a real impact on the work of millions of people who use the platform.',
+    created_at: '',
+    expires_on: '',
+    salary_type: 'annual_package',
+    updated_at: '',
+    work_type: 'contract_temp',
+    company_email: '',
+    company_number: '',
+    salary_max: 12500000,
+    salary_min: 9500000,
+    featured: true,
+  },
+  {
+    id: 2,
+    user_id: '',
+    company_name: 'Soul Burger',
+    title: 'Chef',
+    description: 'Use your culinary skills to bring vegan food to Randwick!',
+    created_at: '',
+    expires_on: '',
+    salary_type: 'hourly',
+    updated_at: '',
+    work_type: 'casual',
+    company_email: '',
+    company_number: '',
+    salary_max: 9500,
+    salary_min: 7500,
+
+  },
+  {
+    id: 3,
+    user_id: '',
+    company_name: 'seedlet',
+    title: 'Snr Backend Engineer',
+    description:
+      'Use your backend software development skills for good, and go home with a warm feeling about it.',
+    created_at: '',
+    expires_on: '',
+    salary_type: 'annual_package',
+    updated_at: '',
+    work_type: 'casual',
+    company_email: '',
+    company_number: '',
+    salary_max: 12500000,
+    salary_min: 9500000,
+  },
+];
